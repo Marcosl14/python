@@ -44,3 +44,9 @@ diccionario_9 = {"a": 1, "b": 2}
 diccionario_10 = {"b": 3, "c": 4}
 diccionario_9.update(diccionario_10)
 print("update():", diccionario_9)  # Salida: {'a': 1, 'b': 3, 'c': 4}
+
+# minimo
+print("min():", min({'c1': 'vida', 'c2': 'bella'}.values()))  # salida: 'bella'
+
+# maximo
+print("min():", max({'c1': 'vida', 'c2': 'bella'}.values()))  # salida: 'vida'

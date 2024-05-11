@@ -74,3 +74,17 @@ print("clear():", lista_10)  # Salida: []
 lista_11 = [1, 2, 3]
 a, b, c = lista_11
 print("Desempaquetado:", a, b, c)  # Salida: 1 2 3
+
+# enlazar dos listas
+lista_12 = [1,2,3]
+lista_13 = ['hola', 'lala', 'pepe']
+lista_14 = zip(lista_1, lista_13) # Salida: [(1, 'hola'), (2, 'lala'), (3, 'pepe')]
+print("zip():", list(lista_14))
+
+# minimo
+print("min():", min([2, 6, 1]))  # salida: 1
+print("min():", min(['hola', 'zancada', 'abeja']))  # salida: 'abeja'
+
+# maximo
+print("max():", max([2, 6, 1]))  # salida: 6
+print("min():", max(['hola', 'zancada', 'abeja']))  # salida: 'zancada'
